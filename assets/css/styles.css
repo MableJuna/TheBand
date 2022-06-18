@@ -330,6 +330,9 @@ html {
     color:white;
     margin:16px 0;
 }
+.contact-input .button:hover {
+    background-color:#333;
+    color:#ccc;
 #map {
 
 }
