@@ -7,12 +7,20 @@
 }
 #intro {
     position:relative;
-    min-height:100vh;
-    background: url(/assets/img/bbq.jpg) no-repeat;
-    background-size:cover;
-    filter:saturate(0.8);
+    /* background: url('./assets/img/bbq.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; */
 }
-
+#intro img {
+    object-fit:cover;
+    height:calc(100vh + 4px );
+    width:100%;
+}
+#intro img::after {
+    content:"";
+    display:block;
+    clear:both;
+}
 #header {
     position:fixed;
     top:0;
@@ -27,7 +35,7 @@
 }
 #header .navbar {
     position:relative;
-    right:2vw;
+    right:60px;
     display:flex;
     flex-flow:wrap row;
 }
@@ -74,12 +82,12 @@
     font-size:48px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 4px;
-    z-index:100;
+    z-index:1;
     cursor:pointer;
 }
 #intro .sub-title {
     font-size:16px;
-    z-index:100;
+    z-index:1;
     cursor:pointer;
 }
 #intro .content:hover {
