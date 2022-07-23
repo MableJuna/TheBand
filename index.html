@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namsan</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo/logo.png">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/7b9adaef18.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            NAMSAN
+        </div>
+        <ul class="navbar">
+            <li class="home-nav"><a href="#intro">Home</a></li>
+            <li><a href='#container'>Story</a></li>
+            <li><a href='#product'>Product</a></li>
+            <li><a href='#booking'>Book</a></li>
+        </ul>
+    </div>
+    <div id="intro">
+        <img src="./assets/img/bbq.jpg" alt="">
+            <div class="home" id="home">
+                <div class="title">
+                    Welcome to NAMSAN
+                </div>
+                <div class="sub-title">
+                    봉 아페티
+                </div>
+            </div>
+    </div>
+    <div id="container">
+        <div class="title">
+            Our Story
+        </div>
+        <div class="story" id="story">
+            <div class="text-content">
+                <p class="heading">
+                    Lorem Ipsum
+                  </p>
+                <p class="introduction">  
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus pharetra nunc quis hendrerit. 
+                    Quisque vestibulum scelerisque tellus, ut imperdiet lorem accumsan eu. Aliquam venenatis interdum tortor, nec lacinia urna consequat a. 
+                    Nulla feugiat vulputate ex, nec consequat tortor. Sed eget elit et urna ultrices sagittis rutrum non leo
+                </p>
+            </div>
+            <div class="img-content">
+                <img src="./assets/img/chef-portrait.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="slider">
+        <div class="product-slider">
+            <div class="slide">
+                <img src="./assets/img/food-1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/food-2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/food-3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/food-4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/food-5.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/food-6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="product">
+        <div class="box">
+            <div class="text-content">
+                <h2>Lorem Ipsum</h2>
+                <p>                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus pharetra nunc quis hendrerit. 
+                    Quisque vestibulum scelerisque tellus, ut imperdiet lorem accumsan eu. Aliquam venenatis interdum tortor, nec lacinia urna consequat a. 
+                    Nulla feugiat vulputate ex, nec consequat tortor. Sed eget elit et urna ultrices sagittis rutrum non leo
+                </p>
+            </div>
+            <img src="./assets/img/set269.jpg" alt="">
+        </div>
+        <div class="box box2">
+            <img src="./assets/img/set299.jpg" alt="">
+            <div class="text-content">
+                <h2>Lorem Ipsum</h2>
+                <p>                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus pharetra nunc quis hendrerit. 
+                    Quisque vestibulum scelerisque tellus, ut imperdiet lorem accumsan eu. Aliquam venenatis interdum tortor, nec lacinia urna consequat a. 
+                    Nulla feugiat vulputate ex, nec consequat tortor. Sed eget elit et urna ultrices sagittis rutrum non leo
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="booking">
+        <div class="title">Namsan</div>
+        <div class="sub-title">We always welcome you!</div>
+        <button class="book-button">Book now!</button>
+    </div>
+    <div id="modal">
+        <div class="modal-container">
+            <div class="close-button">X</div>
+            <div class="heading">Booking</div>
+            <div class="body">
+                <div class="name">
+                    <label for="name">Your name</label>
+                    <input class="modal-input" id="name" type="text" placeholder="Name">
+                </div>
+                <div class="phone-number">
+                    <label for="phonenumber">Your phone number</label>
+                    <input class="modal-input" id="phonenumber" type="text" placeholder="Phone number">
+                </div>
+                <div class="time">
+                    <label for="time">Set time to come</label>
+                    <input class="modal-input" id="time" type="text" placeholder="Time to come">
+                </div>
+                <div class="combo">
+                    <label for="combo">Choose your combo</label>
+                    <select name="" id="combo">
+                        <option value="">Set 199k</option>
+                        <option value="">Set 269k</option>
+                        <option value="">Set 299k</option>
+                    </select>
+                </div>
+                <button class="confirm-button">Book!</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="column-1">
+            <div class="fs-18 mg-12">
+                <ion-icon name="mail"></ion-icon>
+                namsanbbq@gmail.com
+            </div>
+            <div class="fs-18 mg-12">
+                <ion-icon name="call"></ion-icon>
+                01792648928
+            </div>
+            <div class="fs-18 mg-12">
+                <ion-icon name="logo-facebook"></ion-icon>
+                Nam San BBQ
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="text-1 fs-24">Namsan</div>
+            <div class="copyright fs-18">The copyright of this web belongs to AppleNguyen</div>
+        </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./slick-slider.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
